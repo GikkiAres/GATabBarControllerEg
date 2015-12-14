@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCF05871C1BC52D009ED177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF05861C1BC52D009ED177 /* main.m */; };
+		DCCF058A1C1BC52D009ED177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCF05891C1BC52D009ED177 /* AppDelegate.m */; };
+		DCCF05921C1BC52D009ED177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCF05911C1BC52D009ED177 /* Assets.xcassets */; };
+		DCCF05951C1BC52D009ED177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCF05931C1BC52D009ED177 /* LaunchScreen.storyboard */; };
+		DCE368EB1C1F2694003AEBBD /* GATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE368E61C1F2694003AEBBD /* GATabBarController.m */; };
+		DCE368EC1C1F2694003AEBBD /* GATabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE368E71C1F2694003AEBBD /* GATabBarController.xib */; };
+		DCE368ED1C1F2694003AEBBD /* GATabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE368E91C1F2694003AEBBD /* GATabBarItem.m */; };
+		DCE368EE1C1F2694003AEBBD /* GATabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE368EA1C1F2694003AEBBD /* GATabBarItem.xib */; };
+		DCE3690D1C1F26D0003AEBBD /* TabBar_Customer@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368EF1C1F26D0003AEBBD /* TabBar_Customer@1x.png */; };
+		DCE3690E1C1F26D0003AEBBD /* TabBar_Customer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F01C1F26D0003AEBBD /* TabBar_Customer@2x.png */; };
+		DCE3690F1C1F26D0003AEBBD /* TabBar_Customer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F11C1F26D0003AEBBD /* TabBar_Customer@3x.png */; };
+		DCE369101C1F26D0003AEBBD /* TabBar_CustomerT@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F21C1F26D0003AEBBD /* TabBar_CustomerT@1x.png */; };
+		DCE369111C1F26D0003AEBBD /* TabBar_CustomerT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F31C1F26D0003AEBBD /* TabBar_CustomerT@2x.png */; };
+		DCE369121C1F26D0003AEBBD /* TabBar_CustomerT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F41C1F26D0003AEBBD /* TabBar_CustomerT@3x.png */; };
+		DCE369131C1F26D0003AEBBD /* TabBar_Order@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F51C1F26D0003AEBBD /* TabBar_Order@1x.png */; };
+		DCE369141C1F26D0003AEBBD /* TabBar_Order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F61C1F26D0003AEBBD /* TabBar_Order@2x.png */; };
+		DCE369151C1F26D0003AEBBD /* TabBar_Order@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F71C1F26D0003AEBBD /* TabBar_Order@3x.png */; };
+		DCE369161C1F26D0003AEBBD /* TabBar_OrderT@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F81C1F26D0003AEBBD /* TabBar_OrderT@1x.png */; };
+		DCE369171C1F26D0003AEBBD /* TabBar_OrderT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368F91C1F26D0003AEBBD /* TabBar_OrderT@2x.png */; };
+		DCE369181C1F26D0003AEBBD /* TabBar_OrderT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FA1C1F26D0003AEBBD /* TabBar_OrderT@3x.png */; };
+		DCE369191C1F26D0003AEBBD /* TabBar_Pay@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FB1C1F26D0003AEBBD /* TabBar_Pay@1x.png */; };
+		DCE3691A1C1F26D0003AEBBD /* TabBar_Pay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FC1C1F26D0003AEBBD /* TabBar_Pay@2x.png */; };
+		DCE3691B1C1F26D0003AEBBD /* TabBar_Pay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FD1C1F26D0003AEBBD /* TabBar_Pay@3x.png */; };
+		DCE3691C1C1F26D0003AEBBD /* TabBar_PayT@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FE1C1F26D0003AEBBD /* TabBar_PayT@1x.png */; };
+		DCE3691D1C1F26D0003AEBBD /* TabBar_PayT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE368FF1C1F26D0003AEBBD /* TabBar_PayT@2x.png */; };
+		DCE3691E1C1F26D0003AEBBD /* TabBar_PayT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369001C1F26D0003AEBBD /* TabBar_PayT@3x.png */; };
+		DCE3691F1C1F26D0003AEBBD /* TabBar_Reception@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369011C1F26D0003AEBBD /* TabBar_Reception@1x.png */; };
+		DCE369201C1F26D0003AEBBD /* TabBar_Reception@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369021C1F26D0003AEBBD /* TabBar_Reception@2x.png */; };
+		DCE369211C1F26D0003AEBBD /* TabBar_Reception@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369031C1F26D0003AEBBD /* TabBar_Reception@3x.png */; };
+		DCE369221C1F26D0003AEBBD /* TabBar_ReceptionT@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369041C1F26D0003AEBBD /* TabBar_ReceptionT@1x.png */; };
+		DCE369231C1F26D0003AEBBD /* TabBar_ReceptionT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369051C1F26D0003AEBBD /* TabBar_ReceptionT@2x.png */; };
+		DCE369241C1F26D0003AEBBD /* TabBar_ReceptionT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369061C1F26D0003AEBBD /* TabBar_ReceptionT@3x.png */; };
+		DCE369251C1F26D0003AEBBD /* TabBar_Scan@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369071C1F26D0003AEBBD /* TabBar_Scan@1x.png */; };
+		DCE369261C1F26D0003AEBBD /* TabBar_Scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369081C1F26D0003AEBBD /* TabBar_Scan@2x.png */; };
+		DCE369271C1F26D0003AEBBD /* TabBar_Scan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE369091C1F26D0003AEBBD /* TabBar_Scan@3x.png */; };
+		DCE369281C1F26D0003AEBBD /* TabBar_ScanT@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE3690A1C1F26D0003AEBBD /* TabBar_ScanT@1x.png */; };
+		DCE369291C1F26D0003AEBBD /* TabBar_ScanT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE3690B1C1F26D0003AEBBD /* TabBar_ScanT@2x.png */; };
+		DCE3692A1C1F26D0003AEBBD /* TabBar_ScanT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE3690C1C1F26D0003AEBBD /* TabBar_ScanT@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCCF05821C1BC52D009ED177 /* GATabBarControllerEg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATabBarControllerEg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCF05861C1BC52D009ED177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCCF05881C1BC52D009ED177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCCF05891C1BC52D009ED177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCCF05911C1BC52D009ED177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCF05941C1BC52D009ED177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCF05961C1BC52D009ED177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE368E51C1F2694003AEBBD /* GATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATabBarController.h; sourceTree = "<group>"; };
+		DCE368E61C1F2694003AEBBD /* GATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATabBarController.m; sourceTree = "<group>"; };
+		DCE368E71C1F2694003AEBBD /* GATabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GATabBarController.xib; sourceTree = "<group>"; };
+		DCE368E81C1F2694003AEBBD /* GATabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATabBarItem.h; sourceTree = "<group>"; };
+		DCE368E91C1F2694003AEBBD /* GATabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATabBarItem.m; sourceTree = "<group>"; };
+		DCE368EA1C1F2694003AEBBD /* GATabBarItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GATabBarItem.xib; sourceTree = "<group>"; };
+		DCE368EF1C1F26D0003AEBBD /* TabBar_Customer@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Customer@1x.png"; sourceTree = "<group>"; };
+		DCE368F01C1F26D0003AEBBD /* TabBar_Customer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Customer@2x.png"; sourceTree = "<group>"; };
+		DCE368F11C1F26D0003AEBBD /* TabBar_Customer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Customer@3x.png"; sourceTree = "<group>"; };
+		DCE368F21C1F26D0003AEBBD /* TabBar_CustomerT@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_CustomerT@1x.png"; sourceTree = "<group>"; };
+		DCE368F31C1F26D0003AEBBD /* TabBar_CustomerT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_CustomerT@2x.png"; sourceTree = "<group>"; };
+		DCE368F41C1F26D0003AEBBD /* TabBar_CustomerT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_CustomerT@3x.png"; sourceTree = "<group>"; };
+		DCE368F51C1F26D0003AEBBD /* TabBar_Order@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Order@1x.png"; sourceTree = "<group>"; };
+		DCE368F61C1F26D0003AEBBD /* TabBar_Order@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Order@2x.png"; sourceTree = "<group>"; };
+		DCE368F71C1F26D0003AEBBD /* TabBar_Order@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Order@3x.png"; sourceTree = "<group>"; };
+		DCE368F81C1F26D0003AEBBD /* TabBar_OrderT@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_OrderT@1x.png"; sourceTree = "<group>"; };
+		DCE368F91C1F26D0003AEBBD /* TabBar_OrderT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_OrderT@2x.png"; sourceTree = "<group>"; };
+		DCE368FA1C1F26D0003AEBBD /* TabBar_OrderT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_OrderT@3x.png"; sourceTree = "<group>"; };
+		DCE368FB1C1F26D0003AEBBD /* TabBar_Pay@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Pay@1x.png"; sourceTree = "<group>"; };
+		DCE368FC1C1F26D0003AEBBD /* TabBar_Pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Pay@2x.png"; sourceTree = "<group>"; };
+		DCE368FD1C1F26D0003AEBBD /* TabBar_Pay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Pay@3x.png"; sourceTree = "<group>"; };
+		DCE368FE1C1F26D0003AEBBD /* TabBar_PayT@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_PayT@1x.png"; sourceTree = "<group>"; };
+		DCE368FF1C1F26D0003AEBBD /* TabBar_PayT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_PayT@2x.png"; sourceTree = "<group>"; };
+		DCE369001C1F26D0003AEBBD /* TabBar_PayT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_PayT@3x.png"; sourceTree = "<group>"; };
+		DCE369011C1F26D0003AEBBD /* TabBar_Reception@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Reception@1x.png"; sourceTree = "<group>"; };
+		DCE369021C1F26D0003AEBBD /* TabBar_Reception@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Reception@2x.png"; sourceTree = "<group>"; };
+		DCE369031C1F26D0003AEBBD /* TabBar_Reception@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Reception@3x.png"; sourceTree = "<group>"; };
+		DCE369041C1F26D0003AEBBD /* TabBar_ReceptionT@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ReceptionT@1x.png"; sourceTree = "<group>"; };
+		DCE369051C1F26D0003AEBBD /* TabBar_ReceptionT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ReceptionT@2x.png"; sourceTree = "<group>"; };
+		DCE369061C1F26D0003AEBBD /* TabBar_ReceptionT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ReceptionT@3x.png"; sourceTree = "<group>"; };
+		DCE369071C1F26D0003AEBBD /* TabBar_Scan@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Scan@1x.png"; sourceTree = "<group>"; };
+		DCE369081C1F26D0003AEBBD /* TabBar_Scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Scan@2x.png"; sourceTree = "<group>"; };
+		DCE369091C1F26D0003AEBBD /* TabBar_Scan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Scan@3x.png"; sourceTree = "<group>"; };
+		DCE3690A1C1F26D0003AEBBD /* TabBar_ScanT@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ScanT@1x.png"; sourceTree = "<group>"; };
+		DCE3690B1C1F26D0003AEBBD /* TabBar_ScanT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ScanT@2x.png"; sourceTree = "<group>"; };
+		DCE3690C1C1F26D0003AEBBD /* TabBar_ScanT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_ScanT@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCF057F1C1BC52D009ED177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCF05791C1BC52D009ED177 = {
+			isa = PBXGroup;
+			children = (
+				DCCF07381C1D58EB009ED177 /* TabBar */,
+				DCCF07251C1BC66E009ED177 /* GATabBarController */,
+				DCCF05841C1BC52D009ED177 /* GATabBarControllerEg */,
+				DCCF05831C1BC52D009ED177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCF05831C1BC52D009ED177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF05821C1BC52D009ED177 /* GATabBarControllerEg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCF05841C1BC52D009ED177 /* GATabBarControllerEg */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF05881C1BC52D009ED177 /* AppDelegate.h */,
+				DCCF05891C1BC52D009ED177 /* AppDelegate.m */,
+				DCCF05911C1BC52D009ED177 /* Assets.xcassets */,
+				DCCF05931C1BC52D009ED177 /* LaunchScreen.storyboard */,
+				DCCF05961C1BC52D009ED177 /* Info.plist */,
+				DCCF05851C1BC52D009ED177 /* Supporting Files */,
+			);
+			path = GATabBarControllerEg;
+			sourceTree = "<group>";
+		};
+		DCCF05851C1BC52D009ED177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCCF05861C1BC52D009ED177 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCCF07251C1BC66E009ED177 /* GATabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DCE368E51C1F2694003AEBBD /* GATabBarController.h */,
+				DCE368E61C1F2694003AEBBD /* GATabBarController.m */,
+				DCE368E71C1F2694003AEBBD /* GATabBarController.xib */,
+				DCE368E81C1F2694003AEBBD /* GATabBarItem.h */,
+				DCE368E91C1F2694003AEBBD /* GATabBarItem.m */,
+				DCE368EA1C1F2694003AEBBD /* GATabBarItem.xib */,
+			);
+			path = GATabBarController;
+			sourceTree = "<group>";
+		};
+		DCCF07381C1D58EB009ED177 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DCE368EF1C1F26D0003AEBBD /* TabBar_Customer@1x.png */,
+				DCE368F01C1F26D0003AEBBD /* TabBar_Customer@2x.png */,
+				DCE368F11C1F26D0003AEBBD /* TabBar_Customer@3x.png */,
+				DCE368F21C1F26D0003AEBBD /* TabBar_CustomerT@1x.png */,
+				DCE368F31C1F26D0003AEBBD /* TabBar_CustomerT@2x.png */,
+				DCE368F41C1F26D0003AEBBD /* TabBar_CustomerT@3x.png */,
+				DCE368F51C1F26D0003AEBBD /* TabBar_Order@1x.png */,
+				DCE368F61C1F26D0003AEBBD /* TabBar_Order@2x.png */,
+				DCE368F71C1F26D0003AEBBD /* TabBar_Order@3x.png */,
+				DCE368F81C1F26D0003AEBBD /* TabBar_OrderT@1x.png */,
+				DCE368F91C1F26D0003AEBBD /* TabBar_OrderT@2x.png */,
+				DCE368FA1C1F26D0003AEBBD /* TabBar_OrderT@3x.png */,
+				DCE368FB1C1F26D0003AEBBD /* TabBar_Pay@1x.png */,
+				DCE368FC1C1F26D0003AEBBD /* TabBar_Pay@2x.png */,
+				DCE368FD1C1F26D0003AEBBD /* TabBar_Pay@3x.png */,
+				DCE368FE1C1F26D0003AEBBD /* TabBar_PayT@1x.png */,
+				DCE368FF1C1F26D0003AEBBD /* TabBar_PayT@2x.png */,
+				DCE369001C1F26D0003AEBBD /* TabBar_PayT@3x.png */,
+				DCE369011C1F26D0003AEBBD /* TabBar_Reception@1x.png */,
+				DCE369021C1F26D0003AEBBD /* TabBar_Reception@2x.png */,
+				DCE369031C1F26D0003AEBBD /* TabBar_Reception@3x.png */,
+				DCE369041C1F26D0003AEBBD /* TabBar_ReceptionT@1x.png */,
+				DCE369051C1F26D0003AEBBD /* TabBar_ReceptionT@2x.png */,
+				DCE369061C1F26D0003AEBBD /* TabBar_ReceptionT@3x.png */,
+				DCE369071C1F26D0003AEBBD /* TabBar_Scan@1x.png */,
+				DCE369081C1F26D0003AEBBD /* TabBar_Scan@2x.png */,
+				DCE369091C1F26D0003AEBBD /* TabBar_Scan@3x.png */,
+				DCE3690A1C1F26D0003AEBBD /* TabBar_ScanT@1x.png */,
+				DCE3690B1C1F26D0003AEBBD /* TabBar_ScanT@2x.png */,
+				DCE3690C1C1F26D0003AEBBD /* TabBar_ScanT@3x.png */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCF05811C1BC52D009ED177 /* GATabBarControllerEg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCF05991C1BC52D009ED177 /* Build configuration list for PBXNativeTarget "GATabBarControllerEg" */;
+			buildPhases = (
+				DCCF057E1C1BC52D009ED177 /* Sources */,
+				DCCF057F1C1BC52D009ED177 /* Frameworks */,
+				DCCF05801C1BC52D009ED177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GATabBarControllerEg;
+			productName = GATabBarControllerEg;
+			productReference = DCCF05821C1BC52D009ED177 /* GATabBarControllerEg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCF057A1C1BC52D009ED177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GikkiAres;
+				TargetAttributes = {
+					DCCF05811C1BC52D009ED177 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DCCF057D1C1BC52D009ED177 /* Build configuration list for PBXProject "GATabBarControllerEg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCF05791C1BC52D009ED177;
+			productRefGroup = DCCF05831C1BC52D009ED177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCF05811C1BC52D009ED177 /* GATabBarControllerEg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCF05801C1BC52D009ED177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE369201C1F26D0003AEBBD /* TabBar_Reception@2x.png in Resources */,
+				DCE369131C1F26D0003AEBBD /* TabBar_Order@1x.png in Resources */,
+				DCE3690D1C1F26D0003AEBBD /* TabBar_Customer@1x.png in Resources */,
+				DCCF05951C1BC52D009ED177 /* LaunchScreen.storyboard in Resources */,
+				DCE369271C1F26D0003AEBBD /* TabBar_Scan@3x.png in Resources */,
+				DCE369221C1F26D0003AEBBD /* TabBar_ReceptionT@1x.png in Resources */,
+				DCE369191C1F26D0003AEBBD /* TabBar_Pay@1x.png in Resources */,
+				DCE3692A1C1F26D0003AEBBD /* TabBar_ScanT@3x.png in Resources */,
+				DCE369141C1F26D0003AEBBD /* TabBar_Order@2x.png in Resources */,
+				DCE369151C1F26D0003AEBBD /* TabBar_Order@3x.png in Resources */,
+				DCE3691B1C1F26D0003AEBBD /* TabBar_Pay@3x.png in Resources */,
+				DCE3691C1C1F26D0003AEBBD /* TabBar_PayT@1x.png in Resources */,
+				DCE3690E1C1F26D0003AEBBD /* TabBar_Customer@2x.png in Resources */,
+				DCE369291C1F26D0003AEBBD /* TabBar_ScanT@2x.png in Resources */,
+				DCE3691E1C1F26D0003AEBBD /* TabBar_PayT@3x.png in Resources */,
+				DCCF05921C1BC52D009ED177 /* Assets.xcassets in Resources */,
+				DCE369261C1F26D0003AEBBD /* TabBar_Scan@2x.png in Resources */,
+				DCE369101C1F26D0003AEBBD /* TabBar_CustomerT@1x.png in Resources */,
+				DCE368EE1C1F2694003AEBBD /* GATabBarItem.xib in Resources */,
+				DCE3690F1C1F26D0003AEBBD /* TabBar_Customer@3x.png in Resources */,
+				DCE3691F1C1F26D0003AEBBD /* TabBar_Reception@1x.png in Resources */,
+				DCE369281C1F26D0003AEBBD /* TabBar_ScanT@1x.png in Resources */,
+				DCE3691D1C1F26D0003AEBBD /* TabBar_PayT@2x.png in Resources */,
+				DCE369241C1F26D0003AEBBD /* TabBar_ReceptionT@3x.png in Resources */,
+				DCE3691A1C1F26D0003AEBBD /* TabBar_Pay@2x.png in Resources */,
+				DCE368EC1C1F2694003AEBBD /* GATabBarController.xib in Resources */,
+				DCE369171C1F26D0003AEBBD /* TabBar_OrderT@2x.png in Resources */,
+				DCE369121C1F26D0003AEBBD /* TabBar_CustomerT@3x.png in Resources */,
+				DCE369231C1F26D0003AEBBD /* TabBar_ReceptionT@2x.png in Resources */,
+				DCE369211C1F26D0003AEBBD /* TabBar_Reception@3x.png in Resources */,
+				DCE369181C1F26D0003AEBBD /* TabBar_OrderT@3x.png in Resources */,
+				DCE369111C1F26D0003AEBBD /* TabBar_CustomerT@2x.png in Resources */,
+				DCE369251C1F26D0003AEBBD /* TabBar_Scan@1x.png in Resources */,
+				DCE369161C1F26D0003AEBBD /* TabBar_OrderT@1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCF057E1C1BC52D009ED177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE368ED1C1F2694003AEBBD /* GATabBarItem.m in Sources */,
+				DCE368EB1C1F2694003AEBBD /* GATabBarController.m in Sources */,
+				DCCF058A1C1BC52D009ED177 /* AppDelegate.m in Sources */,
+				DCCF05871C1BC52D009ED177 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCCF05931C1BC52D009ED177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCF05941C1BC52D009ED177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCF05971C1BC52D009ED177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCF05981C1BC52D009ED177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCF059A1C1BC52D009ED177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GATabBarControllerEg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.GATabBarControllerEg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCCF059B1C1BC52D009ED177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GATabBarControllerEg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Explorer.GATabBarControllerEg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCF057D1C1BC52D009ED177 /* Build configuration list for PBXProject "GATabBarControllerEg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCF05971C1BC52D009ED177 /* Debug */,
+				DCCF05981C1BC52D009ED177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCF05991C1BC52D009ED177 /* Build configuration list for PBXNativeTarget "GATabBarControllerEg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCF059A1C1BC52D009ED177 /* Debug */,
+				DCCF059B1C1BC52D009ED177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCF057A1C1BC52D009ED177 /* Project object */;
+}
